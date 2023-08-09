@@ -1,7 +1,13 @@
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
+from twilio.rest import Client
 
 app = Flask(__name__)
+
+# Konfigurasi Twilio
+account_sid = 'ACeefb17cb7a7f55d21b6a807bd5ab1a5b'
+auth_token = 'c7229d70867cba9f9c34792b452bd800'
+client = Client(account_sid, auth_token)
 
 @app.route("/")
 def home():
