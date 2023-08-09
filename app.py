@@ -23,36 +23,22 @@ def webhook():
     if incoming_msg.lower() == "halo":
         response = "Halo! Silakan pilih yang ingin kamu ketahui:\n1. Wisata\n2. Hotel\n3. Oleh-Oleh Khas"
     elif incoming_msg.lower() == "wisata":
-        while True:  # Loop untuk menu wisata
-            sub_msg = input("Anda memilih Wisata. Silakan pilih jenis wisata yang ingin kamu ketahui:\n1. Wisata Alam\n2. Wisata Religi\n3. Wisata Buatan\n0. Kembali ke Menu Utama")
-            
-            if sub_msg == "1":
-                while True:  # Loop untuk menu wisata alam
-                    alam_msg = input("Anda memilih Wisata Alam. Silakan pilih opsi:\n1. Tempat Wisata Alam A\n2. Tempat Wisata Alam B\n3. Tempat Wisata Alam C\n0. Kembali ke Menu Wisata Alam")
-                    if alam_msg == "1":
-                        response = "Anda memilih Tempat Wisata Alam A. Berikut informasinya..."
-                    elif alam_msg == "2":
-                        response = "Anda memilih Tempat Wisata Alam B. Berikut informasinya..."
-                    elif alam_msg == "3":
-                        response = "Anda memilih Tempat Wisata Alam C. Berikut informasinya..."
-                    elif alam_msg == "0":
-                        break  # Kembali ke menu wisata
-                    else:
-                        response = "Maaf, pilihan Tempat Wisata Alam tidak valid."
-
-            elif sub_msg == "2":
-                # Implementasi untuk Wisata Religi
-                pass
-
-            elif sub_msg == "3":
-                # Implementasi untuk Wisata Buatan
-                pass
-
-            elif sub_msg == "0":
-                break  # Kembali ke menu utama
-
+        sub_msg = input("Anda memilih Wisata. Silakan pilih jenis wisata yang ingin kamu ketahui:\n1. Wisata Alam\n2. Wisata Religi\n3. Wisata Buatan\n0. Kembali ke Menu Utama")
+        
+        if sub_msg == "1":
+            alam_msg = input("Anda memilih Wisata Alam. Silakan pilih opsi:\n1. Tempat Wisata Alam A\n2. Tempat Wisata Alam B\n3. Tempat Wisata Alam C\n0. Kembali ke Menu Wisata")
+            if alam_msg == "1":
+                response = "Anda memilih Tempat Wisata Alam A. Berikut informasinya..."
+            elif alam_msg == "2":
+                response = "Anda memilih Tempat Wisata Alam B. Berikut informasinya..."
+            elif alam_msg == "3":
+                response = "Anda memilih Tempat Wisata Alam C. Berikut informasinya..."
             else:
-                response = "Maaf, pilihan jenis wisata tidak valid."
+                response = "Maaf, pilihan Tempat Wisata Alam tidak valid."
+        
+        
+        else:
+            response = "Maaf, pilihan jenis wisata tidak valid."
 
     # ... (sisa kode untuk hotel dan oleh-oleh khas)
     else:
