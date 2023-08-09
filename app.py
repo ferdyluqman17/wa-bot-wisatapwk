@@ -21,7 +21,7 @@ def webhook():
 
     if incoming_msg == "halo":
         response = "Halo! Silakan pilih yang ingin kamu ketahui:\n1. Wisata\n2. Hotel\n3. Oleh-Oleh Khas"
-    elif incoming_msg.lower() == "wisata":
+    elif incoming_msg == "wisata":
         response = "Anda memilih Wisata. Silakan pilih jenis wisata yang ingin kamu ketahui:\n1. Wisata Alam\n2. Wisata Religi\n3. Wisata Buatan"
         
         if sub_msg.lower() == "wisata alam":
