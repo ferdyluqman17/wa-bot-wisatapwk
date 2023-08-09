@@ -22,7 +22,7 @@ def webhook():
     if incoming_msg == "halo":
         response = "Halo! Silakan pilih yang ingin kamu ketahui:\n1. Wisata\n2. Hotel\n3. Oleh-Oleh Khas"
     elif incoming_msg.lower() == "wisata":
-        sub_msg = input("Anda memilih Wisata. Silakan pilih jenis wisata yang ingin kamu ketahui:\n1. Wisata Alam\n2. Wisata Religi\n3. Wisata Buatan")
+        response = "Anda memilih Wisata. Silakan pilih jenis wisata yang ingin kamu ketahui:\n1. Wisata Alam\n2. Wisata Religi\n3. Wisata Buatan"
         
         if sub_msg.lower() == "wisata alam":
             alam_msg = input("Anda memilih Wisata Alam. Silakan pilih opsi berikutnya:\n1. Grama Tirta Jatiluhur\n2. Desa Wisata Kampung Tajur\n3. Gunung Parang\n4. Gunung Bangkok\n5. Waduk Cirata\n6. Situ Wanayasa \n7. Curug Cipurut \n8. Ujung Aspal - Pasirmuncang \n9. Curug Cimata Indung \n10. Panarawangan Bukit Cinta \n11. Parang Gombong \n12. Gunung Lembu \n13. Leuwi Cidomas \n14. Kampung Sadang \n15. Curug Tilu \n16. Kampung Kahuripan \n17. Alam Sari Wates \n18. Ngaprak River Adventure \n19. Saung Manglid \n20. Taman Batu Mata Air Cijanun \n21. Sasak Panyawangan \n22. Skylodge Padjajaran Anyar \n23. Hidden Valley Hills  \n24. Bungursari Lake Park \n25. Gunung Cupu")
