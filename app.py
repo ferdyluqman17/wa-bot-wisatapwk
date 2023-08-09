@@ -20,6 +20,9 @@ def webhook():
     response = ""
 
 
+while True:
+    incoming_msg = input("Masukkan pesan: ")
+
     if incoming_msg.lower() == "halo":
         response = "Halo! Silakan pilih yang ingin kamu ketahui:\n1. Wisata\n2. Hotel\n3. Oleh-Oleh Khas"
     elif incoming_msg.lower() == "wisata":
@@ -33,10 +36,22 @@ def webhook():
                 response = "Anda memilih Tempat Wisata Alam B. Berikut informasinya..."
             elif alam_msg == "3":
                 response = "Anda memilih Tempat Wisata Alam C. Berikut informasinya..."
+            elif alam_msg == "0":
+                continue
             else:
                 response = "Maaf, pilihan Tempat Wisata Alam tidak valid."
         
+        elif sub_msg == "2":
+            # Implementasi untuk Wisata Religi
+            pass
         
+        elif sub_msg == "3":
+            # Implementasi untuk Wisata Buatan
+            pass
+        
+        elif sub_msg == "0":
+            continue
+
         else:
             response = "Maaf, pilihan jenis wisata tidak valid."
 
@@ -44,9 +59,8 @@ def webhook():
     else:
         response = "Maaf, saya tidak mengerti pesan Anda. Silakan ulangi."
 
-    resp = MessagingResponse()
-    resp.message(response)
-    return str(resp)
+    print(response)
+
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
