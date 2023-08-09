@@ -20,19 +20,15 @@ def webhook():
     response = ""
 
 
-    if incoming_msg == "halo":
+    if incoming_msg.lower() == "halo":
         response = "Halo! Silakan pilih yang ingin kamu ketahui:\n1. Wisata\n2. Hotel\n3. Oleh-Oleh Khas"
     elif incoming_msg.lower() == "wisata":
         while True:  # Loop untuk menu wisata
-            print("Anda memilih Wisata. Silakan pilih jenis wisata yang ingin kamu ketahui:")
-            print("1. Wisata Alam\n2. Wisata Religi\n3. Wisata Buatan\n0. Kembali ke Menu Utama")
-            sub_msg = input("Pilihan Anda: ")
+            sub_msg = input("Anda memilih Wisata. Silakan pilih jenis wisata yang ingin kamu ketahui:\n1. Wisata Alam\n2. Wisata Religi\n3. Wisata Buatan\n0. Kembali ke Menu Utama")
             
             if sub_msg == "1":
                 while True:  # Loop untuk menu wisata alam
-                    print("Anda memilih Wisata Alam. Silakan pilih opsi:")
-                    print("1. Tempat Wisata Alam A\n2. Tempat Wisata Alam B\n3. Tempat Wisata Alam C\n0. Kembali ke Menu Wisata Alam")
-                    alam_msg = input("Pilihan Anda: ")
+                    alam_msg = input("Anda memilih Wisata Alam. Silakan pilih opsi:\n1. Tempat Wisata Alam A\n2. Tempat Wisata Alam B\n3. Tempat Wisata Alam C\n0. Kembali ke Menu Wisata Alam")
                     if alam_msg == "1":
                         response = "Anda memilih Tempat Wisata Alam A. Berikut informasinya..."
                     elif alam_msg == "2":
@@ -54,7 +50,7 @@ def webhook():
 
             elif sub_msg == "0":
                 break  # Kembali ke menu utama
-            
+
             else:
                 response = "Maaf, pilihan jenis wisata tidak valid."
 
