@@ -24,7 +24,7 @@ def webhook():
     elif incoming_msg == "1":
         response = "Anda memilih Wisata. Silakan pilih jenis wisata yang ingin kamu ketahui:\n1. Wisata Alam\n2. Wisata Religi\n3. Wisata Buatan"
       
-    elif incoming_msg == "1":
+    elif incoming_msg == "Wisata Alam":
         response = ("Anda memilih Wisata Alam. Silakan pilih opsi berikutnya:\n1. Grama Tirta Jatiluhur\n2. Desa Wisata Kampung Tajur\n3. Gunung Parang\n4. Gunung Bangkok\n5. Waduk Cirata\n6. Situ Wanayasa \n7. Curug Cipurut \n8. Ujung Aspal - Pasirmuncang \n9. Curug Cimata Indung \n10. Panarawangan Bukit Cinta \n11. Parang Gombong \n12. Gunung Lembu \n13. Leuwi Cidomas \n14. Kampung Sadang \n15. Curug Tilu \n16. Kampung Kahuripan \n17. Alam Sari Wates \n18. Ngaprak River Adventure \n19. Saung Manglid \n20. Taman Batu Mata Air Cijanun \n21. Sasak Panyawangan \n22. Skylodge Padjajaran Anyar \n23. Hidden Valley Hills  \n24. Bungursari Lake Park \n25. Gunung Cupu")
     elif incoming_msg == "1":
         response = "Anda memilih Grama Tirta Jatiluhur \n1. Deskripsi Wisata :\n2. Grama Tirta Jatiluhur merupakan kawasan yang menyajikan wisata serba air dari berperahu, selancar, kolam renang, hotel/penginapan, outbond, berkemah, hingga wisata kuliner. Dalam wilayah wisata Grama Tirta Jatiluhur, waduk jatiluhur berada. \n3. Lokasi Wisata :\n4. https://goo.gl/maps/goADwYNqPqs36XAw9 \n5. HTM :  \n6. harga tiket masuk Grama Tirta Jatiluhur adalah Rp27,500.00. Sementara saat weekend, harga tiket masuk Grama Tirta Jatiluhur adalah Rp30,000.00 \n7. Waktu Buka/Tutup : \n8. setiap hari jam 08.00 - 17.00 \n9. Kontak \n10. (0264) 201087 \n11. Alternatif kontak \n12. - \n13. Ini adalah akhir cabang."
