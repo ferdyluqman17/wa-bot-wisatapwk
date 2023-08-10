@@ -193,17 +193,17 @@ def webhook():
     elif incoming_msg == "ook":
         response = "Anda memilih Oleh-Oleh Khas. Silakan pilih opsi berikutnya:\n1. Galeri Menong (code : gmo)  \n2. Pusat Oleh-Oleh Purwakarta Simping 49 (code : pops) \n3. Priangan Family (code : pfo) \n4. Pusat Oleh-Oleh dan Manisan Manah Rasa(code : podmr) \n5. Sate Maranggi Haji Yetty(code : smhy) \n6. Sate Maranggi Bah Use (code : smbu) " 
     elif incoming_msg == "gmo":
-        response = "Anda memilih Galeri Menong\n\n Lokasi Hotel :\n https://goo.gl/maps/87chNyNMHoMEKfVB8 \n\n Kontak \n 087725139681 \n\n Selamat liburan, hati-hati di jalan." 
+        response = "Anda memilih Galeri Menong\n\n Lokasi Toko :\n https://goo.gl/maps/87chNyNMHoMEKfVB8 \n\n Kontak \n 087725139681 \n\n Selamat liburan, hati-hati di jalan." 
     elif incoming_msg == "pops":
-        response = "Anda memilih Pusat Oleh-Oleh Purwakarta Simping 49\n\n Lokasi Hotel :\n https://goo.gl/maps/tnyN9JrWEZNARsDZA \n\n Kontak \n 087879991990 \n\n Selamat liburan, hati-hati di jalan." 
+        response = "Anda memilih Pusat Oleh-Oleh Purwakarta Simping 49\n\n Lokasi Toko :\n https://goo.gl/maps/tnyN9JrWEZNARsDZA \n\n Kontak \n 087879991990 \n\n Selamat liburan, hati-hati di jalan." 
     elif incoming_msg == "pfo":
-        response = "Anda memilih Priangan Family 3\n\n Lokasi Hotel :\n https://goo.gl/maps/fZnjqqc3vYq68c3h9 \n\n Kontak \n 081383334470 \n\n Selamat liburan, hati-hati di jalan." 
+        response = "Anda memilih Priangan Family 3\n\n Lokasi Toko :\n https://goo.gl/maps/fZnjqqc3vYq68c3h9 \n\n Kontak \n 081383334470 \n\n Selamat liburan, hati-hati di jalan." 
     elif incoming_msg == "podmr":
-        response = "Anda memilih Pusat Oleh-Oleh dan Manisan Manah Rasa\n\n Lokasi Hotel :\n https://goo.gl/maps/SAARoXEPBc36Z8ba6 \n\n Kontak \n 087779751296 \n\n Selamat liburan, hati-hati di jalan." 
+        response = "Anda memilih Pusat Oleh-Oleh dan Manisan Manah Rasa\n\n Lokasi Toko :\n https://goo.gl/maps/SAARoXEPBc36Z8ba6 \n\n Kontak \n 087779751296 \n\n Selamat liburan, hati-hati di jalan." 
     elif incoming_msg == "smhy":
-        response = "Anda memilih Sate Maranggi Haji Yetty\n\n Lokasi Hotel :\n https://goo.gl/maps/WfdhuwvAfsL7UxGL6 \n\n Kontak \n 0264351077 \n\n Kontak Alternatif \n https://www.instagram.com/satemaranggihajiyettycibungur/?hl=id \n\n Selamat liburan, hati-hati di jalan." 
+        response = "Anda memilih Sate Maranggi Haji Yetty\n\n Lokasi Toko :\n https://goo.gl/maps/WfdhuwvAfsL7UxGL6 \n\n Kontak \n 0264351077 \n\n Kontak Alternatif \n https://www.instagram.com/satemaranggihajiyettycibungur/?hl=id \n\n Selamat liburan, hati-hati di jalan." 
     elif incoming_msg == "smbu":
-        response = "Anda memilih Sate Maranggi Bah Use\n\n Lokasi Hotel :\n https://goo.gl/maps/GXwE1qzeM1pGoNnq8 \n\n Kontak \n 082115322899 \n\n Selamat liburan, hati-hati di jalan." 
+        response = "Anda memilih Sate Maranggi Bah Use\n\n Lokasi Toko :\n https://goo.gl/maps/GXwE1qzeM1pGoNnq8 \n\n Kontak \n 082115322899 \n\n Selamat liburan, hati-hati di jalan." 
     
     else:
         response = "Maaf, kata kunci yang anda masukkan kurang tepat\n\nSilahkan ketik *Halo* untuk kembali ke menu awal"
