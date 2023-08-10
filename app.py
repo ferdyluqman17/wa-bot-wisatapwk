@@ -206,7 +206,7 @@ def webhook():
         response = "Anda memilih Sate Maranggi Bah Use\n\n Lokasi Hotel :\n https://goo.gl/maps/GXwE1qzeM1pGoNnq8 \n\n Kontak \n 082115322899 \n\n Selamat liburan, hati-hati di jalan." 
     
     else:
-        response = "Maaf, saya tidak mengerti pesan kamu."
+        response = "Maaf, kata kunci yang anda masukkan kurang tepat\n\nSilahkan ketik *Halo* untuk kembali ke menu awal"
 
 
     resp = MessagingResponse()
