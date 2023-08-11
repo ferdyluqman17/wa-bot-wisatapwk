@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Konfigurasi Twilio
 account_sid = 'ACeefb17cb7a7f55d21b6a807bd5ab1a5b'
-auth_token = 'c7229d70867cba9f9c34792b452bd800'
+auth_token = '8c2c2a9d984c08706a09aaff7b57a867'
 client = Client(account_sid, auth_token)
 
 @app.route("/")
