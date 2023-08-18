@@ -6,8 +6,8 @@ from twilio.rest import Client
 app = Flask(__name__)
 
 # Konfigurasi Twilio
-account_sid = 'ACeefb17cb7a7f55d21b6a807bd5ab1a5b'
-auth_token = '8c2c2a9d984c08706a09aaff7b57a867'
+account_sid = 'ACefc60c44de33784b5c6bbb851a4f1762'
+auth_token = '57332b71f053698719b188ffba741588'
 client = Client(account_sid, auth_token)
 
 @app.route("/")
